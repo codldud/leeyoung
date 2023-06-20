@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main</title>
+</head>
+
+<style>
+
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding:0;
+        font-family: LeferiPointWhite;
+
+
+    }
+    @font-face {
+        font-family: LeferiPointWhite;
+        src: url("LeferiPointWhite.ttf");
+    }
+
+
+
+    /* 배너 시작 */
+    .Banner {
+  height:800px;
+  background-image:url("https://www.guri.go.kr/DATA/jnrepo/upload/jnBrdBoard/201804/33c4c883e6c14452a71bef3f970c3686_1522802807563.jpg");
+  background-repeat:no-repeat;  
+  background-size:cover;
+  background-position:center center; 
+  position: relative;
+}
+
+/* 배너상단 */
+.Bannertop {
+    margin-left: 88px;
+    margin-right: 88px;
+}
+
+.title {
+    color: #ffffff;
+    font-size: 26px;
+    margin-top: 200px;
+    margin-left: 88px;
+}
+
+.title img{
+    margin-top: 150px;
+}
+
+
+/* 배너 여백 */
+.blank {
+    box-sizing: border-box;
+    margin-left: 106px;
+    margin-right: 106px;
+}
+
+.Bannertop #logo img{
+  vertical-align: middle;
+  height: 40px;
+  width: 129px;
+}
+
+
+.Bannertop #logo{
+  line-height:75px;
+}
+
+/* 한글 */
+.Bannertop #menu{
+  float:right;
+  list-style:none;
+  padding:0;
+  margin-right: 36px;
+  line-height:75px;
+}
+.Bannertop #menu li{
+  float:left;
+  margin-left:50px;
+  line-height:66px;
+}
+
+.Bannertop #menu li a {
+  color:#ffffff;
+  font-size:16px;
+  text-decoration:none;
+  font-weight:bold;
+  line-height:75px;
+}
+
+.Bannertop #menu a:hover{
+        color: #ffffff;
+        text-decoration: underline 2px #ffffff;
+    }
+
+/* 메뉴영어부분 */
+.Bannertop #menu1{
+  float:right;
+  list-style:none;
+  padding:0;
+  margin:0;
+  
+}
+.Bannertop #menu1 li{
+  float:left;
+  margin-left:5px;
+}
+
+.Bannertop #menu1 li a {
+  color:#ffffff;
+  font-size:16px;
+  text-decoration:none;
+  font-weight:bold;
+}
+.Bannertop #menu1 li a{
+box-sizing: border-box;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 3px 10px;
+    line-height:75px;
+}
+
+.Bannertop #menu1 li a:hover{
+        color: #2b2b2b;
+        background-color: white;
+    }
+
+/* 메뉴 이미지 */
+.Bannertop #menu3{
+  float:right;
+  list-style:none;
+  margin-top: 6px;
+
+  
+}
+.Bannertop #menu3 li{
+  float:left;
+  margin-left:10px;
+  line-height:75px;
+  width: 30px;
+  height: 30px;
+  
+}
+
+/* 버튼 */
+.Button{
+    position: absolute;
+    right: 108px;
+    bottom: 250px;
+
+}
+
+/* 두번째 단락 */
+.Second  {
+    text-align: center;
+  margin-top: 85px;
+  margin-bottom: 85px;
+}
+
+.Second a{
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+}
+
+/* 세번째 단락 */
+.Third {
+  height:500px;
+  background-image:url("https://www.guri.go.kr/site/culture/images/main/main_visual_img02.png");
+  background-repeat:no-repeat;  
+  background-size:cover;
+  background-position:center center; 
+  position: relative;
+}
+
+.Third a{
+    position: absolute;
+    right: 108px;
+    bottom: 120px;
+}
+
+.Fourth a{
+  text-decoration: none;
+  font-size: 18px;
+  color: #808080;
+  margin-right: 30px;
+}
+
+.Fourth{
+  float: left;
+  margin-left: 108px;
+  margin-top: 33px;
+}
+
+.Fourth1{
+  float: right;
+  margin-right: 108px;
+  margin-top: 33px;
+}
+
+.Fourth1 a{
+  text-decoration: none;
+  font-size: 18px;
+  color: #808080;
+  margin-right: 30px;
+}
+
+.Fourth2{
+  margin-top: 30px;
+}
+
+.Fourth2 a{
+  text-decoration: none;
+  font-size: 18px;
+  color: #808080;
+}
+
+.Fourth2 p{
+  text-decoration: none;
+  font-size: 18px;
+  color: #808080;
+  margin-left: 1003px;
+}
+
+.Fourth3{
+  margin-top: 15px;
+}
+
+.Fifth {
+  height:380px;
+  background-color: #E6E6E6;
+  background-repeat:no-repeat;  
+  background-size:cover;
+  background-position:center center; 
+  position: relative;
+  margin-top: 55px;
+}
+
+.Fifth p {
+  font-size: 20px;
+  color: #729C2E;
+  margin-left: 99px;
+}
+
+.Fifth a{
+  margin-left: 99px;
+}
+
+.Fifth1 {
+  margin-top: 60px;
+}
+
+.six {
+  height:168px;
+  background-color: #5A6374;
+  background-repeat:no-repeat;  
+  background-size:cover;
+  background-position:center center; 
+  position: relative;
+}
+
+.six img{
+  margin-left: 105px;
+  margin-top: 33px;
+}
+.six1{
+  color: white;
+   margin-left: 105px;
+}
+
+.six2{
+  color: white;
+   margin-right: 135px;
+}
+
+</style>
+
+<body>
+    <div class="Banner">
+    <div class="Bannertop">
+        <a href="main.html" id="logo">
+            <img src ="https://i.postimg.cc/vZ0HNxrH/image.png" height="20">
+                </a>
+  
+                <ul id="menu3">
+                <li><a href="#"><img src="https://i.postimg.cc/fLX1PGxw/Group.png" alt=""></a></li>
+              </ul>
+  
+                <ul id="menu1">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Sitemap</a></li>
+              </ul>
+  
+                <ul id="menu">
+              <li><a href="sub.html">개발사업</a></li>
+              <li><a href="#">시설운영사업</a></li>
+              <li><a href="#">공지 공고</a></li>
+              <li><a href="#">열린광장</a></li>
+              <li><a href="#">공사소개</a></li>
+            </ul>
+    </div>
+    <div class="title">
+        <h1>도시공간의 창조적개발로 
+            <br>시민의 삶의 질 향상과
+            <br>지역경제발전에 기여</h1>
+
+            <img src="https://i.postimg.cc/TP3FGBmx/Group-5.png" alt="">
+      </div>
+
+      <div class="blank">
+        <div class="Button">
+        <a href="#">
+            <img src="https://i.postimg.cc/1t64YdgP/Group-7.png" alt="">
+        </a>
+      </div>
+  </div>
+</div>
+</div>
+
+<div class="Second">
+    <a href="sub2.html"><img src="https://i.postimg.cc/XYXwpG0G/Group-4.png" alt=""></a>
+    <a href="#"><img src="https://i.postimg.cc/wvfzTj8V/Group-5.png" alt=""></a>
+    <a href="#"><img src="https://i.postimg.cc/0NKXJ5wn/Group-6.png" alt=""></a>
+  </div>
+
+  <!-- 세번째 -->
+  <div class="Third">
+    <a href="#"><img src="https://i.postimg.cc/JzrLf2Fm/Frame.png" alt=""></a>
+  </div>
+
+   <!-- 네번째 단락 메뉴얼 -->
+<div class="Fourth">
+  <a href="#" style="color: #729C2E;">공지사항</a>
+  <a href="#">채용공고</a>
+  <a href="#">입찰공고</a>
+</div>
+
+<div class="Fourth1"><a href="#">더보기</a></div>
+
+<!-- 선 -->
+<hr style="border: solid 2px #729C2E; width: 100%; margin-top: 93px;">
+
+<!-- 네번째 단락 공지사항들 -->
+<div class="Fourth2">
+<table style="margin-left: 108px;">
+<td><a href="#">구리도시공사 제3기 시민 모니터단 모집 공고</a></td>
+<td><p>2023 - 05 - 08</p></td>
+
+<tr>
+  <td><div class="Fourth3"><a href="#">2023년 중반기(5월~8월) 행정복지센터 월 정기주차 추첨결과 안내</a></td>
+  <td><div class="Fourth3"><p>2023 - 04 - 04</p></td>
+  </tr>
+
+  <tr>
+    <td><div class="Fourth3"><a href="#">2023년 중반기 행정복지센터 월 정기주차 추첨 안내</a></div></td>
+    <td><div class="Fourth3"><p>2023 - 03 - 30</p></div></td>
+  </tr>
+
+    <tr>
+      <td><div class="Fourth3"><a href="#">2023년 2분기 부양초 공유주차장 이용자 모집 안내</a></div></td>
+      <td><div class="Fourth3"><p>2023 - 03 - 08</p></div></td>
+    </tr>
+
+      <tr>
+        <td><div class="Fourth3"><a href="#">제안서 평가위원(후보자) 모집 공고</a></div></td>
+          <td><div class="Fourth3"><p>2023 - 03 - 03</p></div></td>
+      </tr>
+        </table>
+        </div>
+    
+        <!-- 다섯번째 -->
+        <div class="Fifth">    
+
+            <div class="Fifth1" style="float: left;">
+              <p>시설별 홈페이지</p>
+              <br>
+              <a href="#"><img src="https://i.postimg.cc/tJ19fvW0/Frame.png" alt=""></a>
+            </div>
+
+            <div class="Fifth1" style="float: right; margin-right: 122px;">
+              <p >팝업창</p>
+            <br>
+            <a href="#"><img src="https://i.postimg.cc/RFhm6pP3/Frame2.png" alt=""></a>
+            </div>         
+        </div>
+
+      <div class="six">
+        <img src ="https://i.postimg.cc/vZ0HNxrH/image.png" height="30"> <br>
+      
+        <div class="six1" style="float: left;">
+          <p>(우 11946) 경기도 구리시 벌말로 145 에너지프라자 4층(토평동 980)
+          <br>Copyright(C)2012 GURI Urban Corp.All rights reserved.</p>
+        </div>
+
+        <div class="six2" style="float: right;">
+          <p>전화번호 : 031 - 550 - 3702
+            <br>팩스 : 031 - 550 - 3710.</p>
+        </div>
+      </div>
+
+</body>
+</html>
